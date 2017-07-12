@@ -167,6 +167,10 @@ label {
     margin: 14px;
 }
 
+.st-navbar ul li a.icon {
+    margin: 12px 2px;
+}
+
 .st-navbar ul li a:hover,
 .st-navbar ul li a:focus {
     background-color: transparent;
@@ -1003,3 +1007,4 @@ blockquote .signature {
     text-align: left;
     padding: 10px;
 }
+
