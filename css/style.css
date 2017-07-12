@@ -594,6 +594,8 @@ label {
     -o-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    color: white;
+    font-size: small;
 }
 
 .team-member .member-social a {
@@ -1016,4 +1018,9 @@ blockquote .signature {
     -webkit-filter: drop-shadow(1px 1px 1px #111);
     filter: drop-shadow(1px 1px 1px #111);
     margin: 10px;
+}
+
+.memberHeading {
+    font-weight: bold;
+
 }
