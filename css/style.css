@@ -367,46 +367,38 @@
 		transition: all 0.5s ease-in-out 0.45s;
 	}
 
-
-
-
+#technologie {
+	background-color: #f5f5f5;
+	padding-top: 30px;
+	padding-bottom: 120px;
+}
 
 /* 6. SERVICES */
-
 	#services{
 		background-color: #f5f5f5;
-		padding-top: 130px;
+		padding-top: 30px;
 		padding-bottom: 120px;
 	}
-
 	.section-title{
 		margin-bottom: 50px;
 	}
-
 	.section-title h1{
 		margin-top: 0;
 	}
-
 	.st-service{
 		margin-top: 30px;
 	}
-
 	.st-service h2{
 		font-size: 16px;
 		margin-top: 0;
 		margin-bottom: 15px;
 	}
-
 	.st-service h2 i{
 		margin-right: 10px;
 	}
-
 	.st-service p{}
 
-
-
 /* 7. OUR WORKS */
-
 	.isotope-item {
 	    z-index: 2;
 	}
@@ -428,12 +420,10 @@
 	    -moz-transition-property:-moz-transform, opacity;
 	    transition-property:transform, opacity;
 	}
-
 	#our-works{
-		padding-top: 130px;
+		padding-top: 30px;
 		padding-bottom: 120px;
 	}
-
 	.portfolio-wrapper ul.filter{
 		list-style: none;
 		padding: 0;
@@ -441,18 +431,15 @@
 		margin-top: 28px;
 		overflow: hidden;
 	}
-
 	.portfolio-wrapper ul.filter li{
 		float: left;
 		text-transform: uppercase;
 		margin-right: 25px;
 		font-weight: 600;
 	}
-
 	.portfolio-wrapper ul.filter li a{
 		color: #909090;
 	}
-
 	.portfolio-wrapper ul.filter li a:hover,
 	.portfolio-wrapper ul.filter li a.active{
 		color: #000;
@@ -505,64 +492,6 @@
 	.portfolio-wrapper .portfolio-overlay a:hover{
 		color: #fff;
 	}
-
-
-
-/* 8. PRICING */
-	
-	#pricing{
-		background-color: #f5f5f5;
-		padding-top: 130px;
-		padding-bottom: 120px;
-	}
-
-	.st-pricing{
-		background-color: #fff;
-		padding: 40px;
-		margin-top: 30px;
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
-	}
-
-	.st-pricing:hover{
-		box-shadow: 0px 0px 18px #ddd;
-	}
-
-	.st-pricing h5{
-		margin-top: 0;
-		margin-bottom: 25px;
-	}
-
-	.st-pricing h3{
-		margin-top: 0;
-		margin-bottom: 25px;
-	}
-
-	.st-pricing .st-border{
-		width: 100%;
-		margin-bottom: 15px;
-		background-color: #ccc;
-	}
-
-	.st-pricing ul{
-		list-style: none;
-		padding: 0;
-	}
-
-	.st-pricing ul li{
-		padding: 12px 0;
-		font-size: 15px;
-	}
-
-	.st-pricing a.btn-send{
-		text-transform: uppercase;
-		margin-top: 20px;
-		padding: 10px 25px;
-	}
-
 
 /* 9. ABOUT US */
 	
@@ -629,37 +558,28 @@
 		width: 100%;
 	}
 
-
-
 /* 10. OUR TEAM */
-
 	#our-team{
-		padding-top: 130px;
+		padding-top: 30px;
 		padding-bottom: 120px;
 	}
-
 	.team-member{
 		margin-top: 30px;
 	}
-
 	.member-image{
 		position: relative;
 	}
-
 	.member-info{
 		background-color: #f5f5f5;
 		padding: 15px;
 	}
-
 	.member-info h4{
 		margin-top: 0;
 		margin-bottom: 6px;
 	}
-
 	.member-info span{
 		text-transform: uppercase;
 	}
-
 	.team-member .member-social{
 		position: absolute;
 		width: 100%;
@@ -680,7 +600,6 @@
 		-ms-transform: scale(0.5);
 		transform: scale(0.5);
 	}
-
 	.team-member:hover .member-social{
 		opacity: 1;
 		-moz-transform: scale(1);
@@ -689,19 +608,15 @@
 		-ms-transform: scale(1);
 		transform: scale(1);
 	}
-
 	.team-member .member-social a{
 		position: relative;
 		font-size: 16px;
 		color: #fff;
 		top: 47%;
 	}
-
 	.team-member:hover .member-social a{
 		margin: 6px;
 	}
-
-
 
 /* 11. TESTIMONIAL */
 
@@ -738,8 +653,6 @@
 		text-transform: uppercase;
 	}
 
-
-
 /* 12. FUN FACTS */
 	
 	#fun-facts{
@@ -769,7 +682,7 @@
 /* 13. CONTACT */
 
 	#contact{
-		padding-top: 130px;
+		padding-top: 30px;
 		padding-bottom: 120px;
 	}
 	
@@ -802,8 +715,6 @@
 		width: 100%;
 		margin-bottom: 20px;
 	}
-
-
 
 /* 14. BLOG */
 	
@@ -1083,7 +994,28 @@
 		color: #000;
 	}
 
+blockquote {
+	padding: 5px 10px 5px 45px;
+	line-height: 24px;
+	background: url(../images/quote.png) no-repeat top left;
+	color: #999999;
+	border: none;
+}
 
+blockquote, q {
+	quotes: none;
+}
 
+blockquote .signature {
+	font-size: small;
+}
 
+.section-title h1 {
+	color: #1F4000;
+}
 
+.member-social div {
+	color: #9d9d9d;
+	text-align: left;
+	padding: 10px;
+}
