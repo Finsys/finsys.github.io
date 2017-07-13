@@ -1022,5 +1022,20 @@ blockquote .signature {
 
 .memberHeading {
     font-weight: bold;
+}
 
+
+section a, section a:hover {
+    color: #2e6da4;
+}
+
+section li:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    color: #b4b4b4; /* or whatever color you prefer */
+    margin-right: 4px;
+}
+
+section li {
+    list-style: none;
 }
